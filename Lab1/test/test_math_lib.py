@@ -22,3 +22,5 @@ def test_is_perfect() -> None:
 test_max()
 test_max_none()
 test_is_perfect()
+
+assert 1 + 2 == 3
