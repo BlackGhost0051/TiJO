@@ -34,10 +34,14 @@ class SavingsAccount(BankAccount):
             raise Exception("Minimum balance for savings account is 100")
 
 
+
 def perform_transaction(account: BankAccount, deposit_amount, withdraw_amount):
-    account.deposit(deposit_amount)
-    account.withdraw(withdraw_amount)
-    print(f"Balance after transaction: {account.get_balance()}")
+    try:
+        account.deposit(deposit_amount)
+        account.withdraw(withdraw_amount)
+        print(f"Balance after transaction: {account.get_balance()}")
+    except Exception as e:
+        print(f"Transaction failed: {e}")
 
 
 # Usage
