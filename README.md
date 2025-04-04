@@ -8,3 +8,4 @@
 - [Lab4](https://github.com/BlackGhost0051/TiJO/tree/master/Lab4) - Code coverage with tests
 - [Lab5](https://github.com/BlackGhost0051/TiJO/tree/master/Lab5) - SOLID
 - [Lab6](https://github.com/BlackGhost0051/TiJO/tree/master/Lab6) - Code Smells
+- [Lab6](https://github.com/BlackGhost0051/TiJO/tree/master/Lab7) - Atraps
